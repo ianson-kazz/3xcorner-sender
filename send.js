@@ -5,7 +5,7 @@ import admin from "firebase-admin";
 // !!! THE ONE VALUE YOU MUST UPDATE ONCE THE SITE IS LIVE !!!
 // Replace the placeholder below with the live site origin (no trailing slash),
 // e.g. "https://the3xcorner.com" or "https://your-project.pages.dev".
-// Every notification link is built as: PUT_THE_LIVE_SITE_URL_HERE + msg.link_url
+// Every notification link is built as: LIVE_SITE_URL + msg.link_url
 // while the site is not hosted yet, notification links will open a dead link.
 // ════════════════════════════════════════════════════════════════════════════
 const LIVE_SITE_URL = "https://the-3x-corner.netlify.app/";
