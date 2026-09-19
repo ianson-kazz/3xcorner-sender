@@ -1,0 +1,8 @@
+node_modules/
+.env
+.env.local
+*.log
+
+# The website bundle is deployed to Netlify by drag-and-drop, so it is not
+# tracked in this sender repo. Delete these two lines if you want it in git.
+/New folder (3)/
