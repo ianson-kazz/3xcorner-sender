@@ -8,7 +8,7 @@ import admin from "firebase-admin";
 // Every notification link is built as: LIVE_SITE_URL + msg.link_url
 // while the site is not hosted yet, notification links will open a dead link.
 // ════════════════════════════════════════════════════════════════════════════
-const LIVE_SITE_URL = "https://the-3x-corner.netlify.app/";
+const LIVE_SITE_URL = "https://the-3x-corner.netlify.app";
 const MAX_DAY = 120;
 
 const supabase = createClient(process.env.SUPABASE_URL, process.env.SUPABASE_SERVICE_KEY);
